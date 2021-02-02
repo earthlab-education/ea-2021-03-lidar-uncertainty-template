@@ -10,12 +10,9 @@ dependencies:
   - matplotlib
   - pyqt
   - seaborn
-  #- tqdm
-  #- kiwisolver
 
   # Spatial packages
-  #- pysal
-  #- pyproj
+  - descartes
   - rasterstats
   - geopy
   - cartopy
