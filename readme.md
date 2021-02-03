@@ -1,7 +1,7 @@
 # README
 
 This repository contains the notebooks for this week's assignment. Complete
-the homework in each .ipynb notebook, commit your work, and push the changes
+the homework in each **.ipynb** notebook, commit your work, and push the changes
 to github. Your instructor will pull the completed assignment after the
 deadline.
 
