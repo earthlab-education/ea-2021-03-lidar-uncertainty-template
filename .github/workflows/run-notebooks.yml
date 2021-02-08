@@ -33,8 +33,9 @@ jobs:
         conda env create -f environment.yml
 
     - name: Run all notebooks
+      shell: bash
       run: |
         source activate ea-python
         # Loop through all notebooks and run them using papermill
-        for (i in *.ipynb){do papermill $i testing.ipynb}
+        for i in *.ipynb; do papermill $i testing.ipynb;
         done
